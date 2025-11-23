@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, GridHelper } from '@react-three/drei';
 
+
 const Cylinder = ({ frameDiameter, frameDepth }) => (
   <mesh>
     <cylinderGeometry args={[frameDiameter / 2, frameDiameter / 2, frameDepth, 64]} />
